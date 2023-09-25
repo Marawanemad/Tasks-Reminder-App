@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "taskreminder",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "taskreminder (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "taskreminder (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Flutter (RMX2001)",
+            "program": "lib/main.dart",
+            "deviceId": "192.168.1.5:5555",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
